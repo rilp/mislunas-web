@@ -1,7 +1,5 @@
 body {
   margin: 0px;
-  background-color: #282c34;
-  color: white;
   font-family:Arial, Helvetica, sans-serif;
 }
 
@@ -9,63 +7,54 @@ body {
   text-align: center;
 }
 
-header{
+header {
   background-color: #333333;
-  height: 350px;
-  text-align: center;
+  padding: 2rem 0;
 }
 
-header .logo{
-  padding-top: 70px;
-  width: 50%;
-}
-
-header hr{
-  max-width: 100%;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  height: .1rem;
+header hr {
+  height: .12rem;
   border: 0;
-  background-image: linear-gradient(to right,transparent,#F4B9B7,transparent);
+  margin-top: 2rem;
+  background-image: linear-gradient(90deg,transparent,#f4b9b7,transparent);
 }
 
 #contact {
-  height: 450px;
+  color: white;
   background: rgb(244,185,183);
   background: linear-gradient(0deg, rgba(244,185,183,1) 0%, rgba(213,158,207,1) 100%);
 }
 
 #contact h2 {
-  margin-top: 0;
-  margin-bottom: 15px;
-  font-weight: normal;
+  padding-top: 2rem;
+  margin: 0;
+  font-weight: 200;
   text-align: center;
-  padding-top: 30px;
-  font-size: 40pt;
+  font-size: calc(250% + 1vw + 1vh);;
 }
 
 #contact hr {
-  max-width: 100%;
-  margin-bottom: 40px;
-  height: .1rem;
+  height: .12rem;
+  margin-top: .5rem;
   border: 0;
   background-image: linear-gradient(to right,transparent,white,transparent);
 }
 
-#contact .contactCard .row {
+#contact .link {
   text-align: center;
-  margin-bottom: 15px;
+  padding-bottom: 1rem;
 }
 
-#contact .contactCard img{
-  max-width: 80px;
+#contact .link .contactIcon {
+  width: 80px;
 }
 
 #copyright{
   text-align: center;
-  height: 30px;
+  padding: 2em 0;
   font-size: 10px;
-  padding-top: 20px;
+  background-color: #333333;
+  color: white;
 }
 
 #copyright a{
