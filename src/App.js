@@ -51,7 +51,7 @@ function CalendarModal() {
 
   return (
     <>
-      <Button variant="outline-dark" onClick={handleShow}>Leer m&aacute;s...</Button>
+      <Button variant="outline-secondary" onClick={handleShow}>Leer m&aacute;s...</Button>
 
       <Modal show={show} onHide={handleClose} size="xl" id="calendarModal">
         <Modal.Header closeButton>
@@ -99,7 +99,10 @@ class Calendar extends React.Component {
                   <Col lg={10}>
                     <p>Aquí tienes un calendario circular, con las fases de la luna que te permitir&aacute; observar como “eres” a lo largo de tu ciclo. </p>
                     <p>He usado este calendario por a&ntilde;os y te puedo platicar que me ha servido para recordar mis saberes en cuanto a fertilidad, a reconocer lo necesario que era modificar mi alimentaci&oacute;n, a eliminar problemas de candidiasis y varias cosas m&aacute;s.</p>
-                    <CalendarModal/>
+                    <Row>
+                      <Col><CalendarModal/></Col>
+                      <Col><Button variant="outline-info" href="https://buy.stripe.com/4gw7tO1HM4xs1gIeUU">Comprar ahora</Button></Col>
+                    </Row>
                     <br/>&nbsp;
                   </Col>
                 </Row>
@@ -122,9 +125,16 @@ class Contact extends React.Component {
               <hr/>
             </Col>
           </Row>
-          <ContactImage name={"email"} img={"img/mail.svg"} info={"mailto:zayra.zambrano@gmail.com"}/>
-          <ContactImage name={"facebook"} img={"img/facebook.svg"} info={"https://www.facebook.com/zay.zambrano"}/>
-          <ContactImage name={"whatsapp"} img={"img/whatsapp.svg"} info={"https://wa.link/if9emg"}/>
+          <Row className="justify-content-md-center">
+            <Col sm="3" ></Col>
+            <Col><ContactImage name={"email"} img={"img/mail.svg"} info={"mailto:amo.mis.lunas@gmail.com"}/></Col>
+            <Col><ContactImage name={"whatsapp"} img={"img/whatsapp.svg"} info={"https://wa.link/4v2tii"}/></Col>
+            <Col><ContactImage name={"facebook"} img={"img/facebook.svg"} info={"https://www.facebook.com/zay.zambrano"}/></Col>
+            <Col><ContactImage name={"instagram"} img={"img/instagram.svg"} info={"https://www.instagram.com/calmazambrano/"}/></Col>
+            <Col sm="3"></Col>
+          </Row>
+          
+          
         </Container>
       </Container>
     )
