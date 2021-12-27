@@ -1,6 +1,6 @@
 # Mis Lunas 2022
 
-This is the one page web site for [Mis Lunas](https://mislunas.web.app) in its 2020 edition.
+This is the one page web site for [Mis Lunas](https://mislunas.web.app) in its 2022 edition.
 
 ## About
 
