@@ -1,4 +1,4 @@
-# Mis Lunas 2020
+# Mis Lunas 2022
 
 This is the one page web site for [Mis Lunas](https://mislunas.web.app) in its 2020 edition.
 
